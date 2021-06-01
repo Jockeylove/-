@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
     MyView cv;
     private final String PERMISSION_MSG = "该应用需开启麦克风权限";
     private final int PERMISSION_CODE = 1;
-    private final String[] PERMS = {Manifest.permission.RECORD_AUDIO,
-            Manifest.permission.READ_EXTERNAL_STORAGE,
-            Manifest.permission.WRITE_EXTERNAL_STORAGE};
+    private final String[] PERMS = {Manifest.permission.RECORD_AUDIO};
     MediaRecorder mMediaRecorder;
     private String filePath = null;
     private Handler mHandler = new Handler();
